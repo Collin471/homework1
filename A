@@ -1,0 +1,31 @@
+import random
+
+xx=[]
+for i in range(10):
+    xx=xx+[range(10)]
+
+#print xx
+
+yy=[]
+for k in range(10):
+    a=[]
+    for j in range(10):
+        a=a+[k]
+
+    yy=yy+[a]
+    
+#print yy
+
+z=range(10)
+t=3.0
+r=[]
+
+for j in range(10):
+    for i in range(10):
+        if random.uniform(0,10)<t:
+            z[i]=1
+        else:
+            z[i]=0
+    r=r+[z]
+
+print r

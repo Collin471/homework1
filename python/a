@@ -1,0 +1,11 @@
+a=[2]
+num=3
+while len(a)<100:
+Prime=True
+for b in range(2,num)
+if(num%b==0)
+prime=False
+if prime:
+    a=a+[num]
+    num=num+1
+    print a
